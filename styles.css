@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: blue; /*var(--black);*/
+    background-color: var(--black);
     color: var(--white);
     font-family: Roboto, Arial, sans-serif;
 }
@@ -17,6 +17,8 @@ body {
 #page-container {
     display: grid;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
 
     grid-template-columns: 60px 1fr;
     grid-template-rows: 56px 1fr;
@@ -24,12 +26,6 @@ body {
     grid-template-areas:
     "header header"
     "sidebar content";
-}
-
-#content-area {
-    grid-area: content;
-    padding: 24px 24px 0 24px;
-    overflow-y: auto;
 }
 
 /* --- HEADER --- */
@@ -168,15 +164,20 @@ body {
     margin: 8px 0;
 }
 
-/* --- MAIN CONTENT --- */
+/* --- CONTENT AREA --- */
+#content-area {
+    grid-area: content;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+    overflow-y: auto;
+}
+
 .card-grid {
-    background-color: var(--red);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-left: 8px;
-    margin-right: 8px;
 }
 
 /* -- VIDEO CARD -- */
