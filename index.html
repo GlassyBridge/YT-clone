@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YT clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="page-container">
+        <header id="header">
+            <div id="fixed-header">
+                <div class="header-left">
+                    <span class="icon" id="hamenu"><img src="Assets/hamenu.svg"></span>
+                    <div id="logo">
+                        <img src="Assets/youtube.png">
+                        <span>YouTube</span>
+                    </div>
+                </div>
+                <div class="header-center">
+                    <input type="text" placeholder="Search">
+                    <button><span class="icon"><img src="Assets/search.svg"></span></button>
+                </div>
+                <div class="header-right">
+                    <span class="icon"><img src="Assets/mic.svg" alt=""></span>
+                    <span class="icon"><img src="Assets/create.svg" alt=""></span>
+                    <span class="icon"><img src="Assets/bell.svg" alt=""></span>
+                    <div class="pfp"><img src="Assets/settings.svg" alt=""></div> 
+                </div>
+            </div>
+        </header>
+        
+        <nav id="sidebar">
+            <div id="fixed-sidebar">
+                <a href="#" class="nav-item active"><span class="icon"><img src="Assets/home.svg"></span></a>
+                <a href="#" class="nav-item"><span class="icon"><img src="Assets/shorts.png"></span></a>
+                <a href="#" class="nav-item"><span class="icon"><img src="Assets/sub.svg"></span></a>
+                <a href="#" class="nav-item"><span class="icon"><img src="Assets/you.svg"></span></a>
+                <!-- <hr> -->
+            </div>
+        </nav>
+        
+        <main id="content-area">
+            <div class="card-grid">
+                <div class="card">
+                    <div class="bg"></div>
+                    <div class="thumbnail">
+                        <img src="https://placecats.com/bella/1280/720" alt="thumbnail">
+                        <div class="duration">100000:10:45</div> 
+                    </div>
+                    <div class="details">
+                        <div class="pfp">
+                            <img src="https://placecats.com/neo_2/300/300" alt="pfp">
+                        </div>
+                        <div class="title-cname-stats">
+                            <div class="title">This is an Example Video Title That is Quite Long - just like what we have here. </div>
+                            <div class="cname">Channel Name</div>
+                            <div class="stats"><span>1.2M</span> views • <span>3 days</span> ago</div>
+                        </div>
+                        <div class="menu-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
