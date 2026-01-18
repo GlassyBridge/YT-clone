@@ -238,7 +238,41 @@ button:hover{
 }
 
 .card:hover {
-    background-color:  rgba(141, 31, 31, 0.374);
+    background-color:  rgba(138, 138, 138, 0.374);
+}
+
+.card.SciShow:hover {
+    background-color:  rgba(46, 141, 31, 0.374);
+}
+.card.TED-Ed:hover {
+    background-color:  rgba(59, 31, 141, 0.374);
+}
+.card.Minecraft:hover {
+    background-color:  rgba(31, 141, 121, 0.374);
+}
+.card.Vsauce:hover {
+    background-color:  rgba(141, 82, 31, 0.374);
+}
+.card.RationalAnimations:hover {
+    background-color:  rgba(101, 141, 31, 0.374);
+}
+.card.Veritasium:hover {
+    background-color:  rgba(31, 53, 141, 0.374);
+}
+.card.Kurzgesagt:hover {
+    background-color:  rgba(31, 125, 141, 0.374);
+}
+.card.Madyeti47:hover {
+    background-color:  rgba(141, 31, 75, 0.374);
+}
+.card.IBM:hover {
+    background-color:  rgba(31, 61, 141, 0.374);
+}
+.card.MinuteEarth:hover {
+    background-color:  rgba(119, 119, 10, 0.374);
+}
+.card.FilmTheory:hover {
+    background-color:  rgba(141, 29, 29, 0.374);
 }
 
 .card a {
