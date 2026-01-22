@@ -275,7 +275,7 @@ button:hover{
     background-color:  rgba(141, 29, 29, 0.374);
 }
 
-.card a {
+a {
     text-decoration: none;
     color: inherit;
 }
