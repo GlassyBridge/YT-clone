@@ -1,6 +1,6 @@
 > [!CAUTION]
 > **DISCLAIMER**: This project is built for **educational purposes only**.
-> It is just a visual imitation of the YouTube interface and is not affiliated with, endorsed by, or connected to YouTube or Google.
+> It is just a visual imitation of the YouTube homepage and is not affiliated with, endorsed by, or connected to YouTube or Google.
 
 <img width="100%" src="Assets/screenshot.png"></img>
 
