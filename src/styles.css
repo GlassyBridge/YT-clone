@@ -92,6 +92,7 @@ body {
 
 #logo img {
     width: 2em;
+    filter: hue-rotate(180deg);
     margin: 0;
 }
 
