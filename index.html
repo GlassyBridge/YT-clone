@@ -34,10 +34,22 @@
         
         <nav id="sidebar">
             <div id="fixed-sidebar">
-                <a href="#" class="nav-item active" title="Home (Here)"><span class="icon"><img src="Assets/home.svg"></span></a>
-                <a href="https://www.youtube.com/shorts/" class="nav-item" title="Shorts (Youtube)"><span class="icon"><img src="Assets/shorts.png"></span></a>
-                <a href="https://www.youtube.com/feed/subscriptions/" class="nav-item" title="Subscriptions (YouTube)"><span class="icon"><img src="Assets/sub.svg"></span></a>
-                <a href="https://www.youtube.com/feed/you/" class="nav-item" title="you (YouTube)"><span class="icon"><img src="Assets/you.svg"></span></a>
+                <a id="home" href="#" class="nav-item active" title="Home (Here)">
+                    <span class="icon"><img src="Assets/home.svg"></span>
+                    <span class="label">Home</span>
+                </a>
+                <a id="shorts" href="https://www.youtube.com/shorts/" class="nav-item" title="Shorts (Youtube)">
+                    <span class="icon"><img src="Assets/shorts.png"></span>
+                    <span class="label">Shorts</span>
+                </a>
+                <a id="subscriptions" href="https://www.youtube.com/feed/subscriptions/" class="nav-item" title="Subscriptions (YouTube)">
+                    <span class="icon"><img src="Assets/sub.svg"></span>
+                    <span class="label">Subscriptions</span>
+                </a>
+                <a id="you" href="https://www.youtube.com/feed/you/" class="nav-item" title="you (YouTube)">
+                    <span class="icon"><img src="Assets/you.svg"></span>
+                    <span class="label">You</span>
+                </a>
             </div>
         </nav>
         
@@ -304,7 +316,7 @@
                     </div>
                 </div>
                 <!-- Branch Education -->
-                <div class="card BranchEducation">
+				<div class="card BranchEducation">
                     <a href="http://www.youtube.com/watch?v=d86ws7mQYIg">
                         <div class="thumbnail">
                             <img src="https://i.ytimg.com/vi/d86ws7mQYIg/hq720.jpg" alt="thumbnail">
@@ -565,6 +577,9 @@
                 </div>
             </div>
         </main>
+
+        <script src="src/youtube.js"></script>
+		<script src="src/script.js"></script>
     </div>
 </body>
 </html>

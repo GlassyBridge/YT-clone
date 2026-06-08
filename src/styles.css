@@ -72,8 +72,9 @@ body {
 
 #hamenu {
     margin: 0 16px;
-    padding: 8px;
+    padding: 12px;
     border-radius: 50%;
+    background-color: transparent;
 }
 
 #hamenu img{
@@ -82,7 +83,7 @@ body {
 }
 
 #hamenu:hover {
-    background: #303030;
+    background-color: #303030;
 }
 
 #logo {
@@ -171,6 +172,7 @@ button:hover{
     background-color: var(--black);
     border-right: 1px solid rgba(255, 255, 255, 0.1);
     padding: 0;
+    padding-top: 10px;
     
     box-sizing: border-box;
     height: 100%;
@@ -180,14 +182,15 @@ button:hover{
 
 .nav-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
     gap: 16px;
 
     color: var(--white);
     text-decoration: none;
     font-size: 0.9rem;
-
-    padding: 24px 20px;
+    
+    padding: 16px 0;
     border-radius: 12px;
 }
 
@@ -198,6 +201,33 @@ button:hover{
 .nav-item.active {
     background-color: #3f3f3f;
     font-weight: bold;
+}
+
+.nav-item span {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item .icon {
+    padding: 0 20px;
+    margin: 0;
+}
+
+.nav-item .label {
+    font-size: 0.7rem;
+    margin: 0;
+    padding: 0;
+}
+
+#fixed-sidebar.expanded .nav-item {
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+#fixed-sidebar.expanded .nav-item .label {
+    font-size: 0.9rem;
+    margin-right: 50px;
 }
 
 #sidebar hr {
@@ -239,7 +269,7 @@ button:hover{
 }
 
 .card:hover {
-    background-color:  rgba(138, 138, 138, 0.374);
+    background-color:  rgba(var(--box-color), 0.374);
 }
 
 .card.SciShow:hover {
